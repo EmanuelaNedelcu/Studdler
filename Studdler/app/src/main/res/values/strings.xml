@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">studdler</string>
+    <string name="current_exam">Current Exams</string>
+    <string name="new_exam">Add a new exam</string>
+    <string name="past_exam">Past exams</string>
+    <string name="exam_name">Exam name</string>
+    <string name="exam_dif">Difficulty </string>
+    <string name="exam_grade">Grade </string>
+    <string name="min_hours">Min study alone hours </string>
+    <string name="max_hours">Max study alone hours </string>
+    <string name="group_min_hours">Min group hours </string>
+    <string name="group_max_hours">Max group hours </string>
+    <string name="save_button">Save </string>
+    <string-array name="diff_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+</resources>
