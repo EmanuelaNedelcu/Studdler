@@ -8,6 +8,7 @@ class Student(Base):
     __tablename__ = 'students'
     id = Column(Integer, primary_key=True)
     name = Column(String(255))
+    desired_grade = Column(Integer) # from 1 to 10
     subjects = relationship('Subjects')
 
     def __repr__():
@@ -19,7 +20,7 @@ class Subject(Base):
     name = Column(String(255))
     hours = Column(Integer)
     difficulty = Column(Integer) # from one to 10
-    mark = Column(Integer)
+    grade = Column(Integer)
 
     def __repr__():
         return str(self.name
