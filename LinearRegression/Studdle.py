@@ -4,7 +4,7 @@ print('Solving with normal equations...\n');
 
 f = open('data.txt', 'r')
 l = [line[:-1].split(', ') for line in f]
-
+ 
 m = len(l)
 X = [[int(l[i][j]) for i in range(m)] for j in range(2)]
 y = [int(l[i][-1]) for i in range(m)]
