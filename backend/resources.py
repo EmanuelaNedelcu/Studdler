@@ -1,5 +1,6 @@
 
-from models import Todo
+from models import Student, Subject
+# from models import Todo
 from db import session
 
 from flask.ext.restful import reqparse
@@ -14,8 +15,48 @@ todo_fields = {
     'uri': fields.Url('todo', absolute=True),
 }
 
+
+student_fields = {
+    'id': fields.Integer,
+    'name': fields.String,
+    'subjects': fields.String, # marshal subjects into a string
+}
+
+
+
 parser = reqparse.RequestParser()
 parser.add_argument('task', type=str)
+
+class StudentResource(Resource):
+    @marshal_with(student_fields)
+    def get(self, id):
+        student = session.query(Student).filter(Student.id == id).first()
+        if not student:
+            abort(404, message="Student {} doesn't exist".format(id))
+        return student
+    
+    def delete(self, id):
+        student = session.query(Student).filter(Student.id == id).first()
+        if not student:
+            abort(404, message="Student {} doesn't exist".format(id))
+        session.delete(student)
+        session.commit()
+        return {}, 204
+
+    @marshal_with(Student_fields)
+    def put(self, id):
+        parsed_args = parser.parse_args()
+        student = session.query(Student).filter(Student.id == id).first()
+        student.subject = parsed_args['subject']
+        session.add(student)
+        session.commit()
+        return student, 201
+
+class StudentListResource(Resource):
+    @marshal_with(student_fields)
+    def get(self):
+        students = session.query(Student).all()
+        return students
 
 class TodoResource(Resource):
     @marshal_with(todo_fields)
@@ -41,6 +82,8 @@ class TodoResource(Resource):
         session.add(todo)
         session.commit()
         return todo, 201
+
+
 
 
 class TodoListResource(Resource):
