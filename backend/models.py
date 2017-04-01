@@ -1,47 +1,21 @@
-from datetime import datetime
+#!/usr/bin/env python
 
+from sqlalchemy import Column
+from sqlalchemy import Integer
+from sqlalchemy import String
+from sqlalchemy.ext.declarative import declarative_base
 
-class Post(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(80))
-    body = db.Column(db.Text)
-    pub_date = db.Column(db.DateTime)
+Base = declarative_base()
 
-    category_id = db.Column(db.Integer, db.ForeignKey('category.id'))
-    category = db.relationship('Category',
-        backref=db.backref('posts', lazy='dynamic'))
+class Todo(Base):
+    __tablename__ = 'todos'
 
-    def __init__(self, title, body, category, pub_date=None):
-        self.title = title
-        self.body = body
-        if pub_date is None:
-            pub_date = datetime.utcnow()
-        self.pub_date = pub_date
-        self.category = category
+    id = Column(Integer, primary_key=True)
+    task = Column(String(255))
 
-    def __repr__(self):
-        return '<Post %r>' % self.title
-
-
-class Category(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(50))
-
-    def __init__(self, name):
-        self.name = name
-
-    def __repr__(self):
-        return '<Category %r>' % self.name
-
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True)
-    email = db.Column(db.String(120), unique=True)
-    subjects = db.Column()
-
-    def __init__(self, username, email):
-        self.username = username
-        self.email = email
-
-    def __repr__(self):
-        return '<User %r>' % self.username
+if __name__ == "__main__":
+    from sqlalchemy import create_engine
+    from settings import DB_URI
+    engine = create_engine(DB_URI)
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
