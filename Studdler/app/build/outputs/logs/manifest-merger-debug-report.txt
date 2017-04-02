@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/marco/.android/build-cache/70c8e1c8378a2a3d7bc8ace32adcf8c8865de4de/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/marco/.android/build-cache/771e162ffef74c4573bcede951009dd0d880c283/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/marco/.android/build-cache/8ef4796016b49957ab355b7e30098bd9f99b1580/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/marco/.android/build-cache/92aabfd4b5251f0fc11b40cc6cad012db2b9c77e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/marco/.android/build-cache/23b505320c93fb72b221f398006ba051995be700/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/marco/.android/build-cache/ef3c68bb23650d376853a17b826f7f25018159ee/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/marco/.android/build-cache/a54de69e8dc5ba21998ded7cab16d4ead0546146/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/marco/.android/build-cache/a774d70e53caeedd04ad9772e477a370d48c38c1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marco/.android/build-cache/3dd5e6347a579472638a897a176aacf4d4ad4b22/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.studdler.MainActivity
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.studdler.NewExam
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:19:9-21:58
+	android:parentActivityName
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:21:13-55
+	android:name
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:20:13-36
+activity#com.example.studdler.PastExams
+ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:22:9-24:58
+	android:parentActivityName
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:24:13-55
+	android:name
+		ADDED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml:23:13-38
+uses-sdk
+INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] /home/marco/.android/build-cache/70c8e1c8378a2a3d7bc8ace32adcf8c8865de4de/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/marco/.android/build-cache/771e162ffef74c4573bcede951009dd0d880c283/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/marco/.android/build-cache/8ef4796016b49957ab355b7e30098bd9f99b1580/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/marco/.android/build-cache/92aabfd4b5251f0fc11b40cc6cad012db2b9c77e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/marco/.android/build-cache/23b505320c93fb72b221f398006ba051995be700/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/marco/.android/build-cache/ef3c68bb23650d376853a17b826f7f25018159ee/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/marco/.android/build-cache/a54de69e8dc5ba21998ded7cab16d4ead0546146/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] /home/marco/.android/build-cache/a774d70e53caeedd04ad9772e477a370d48c38c1/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marco/.android/build-cache/3dd5e6347a579472638a897a176aacf4d4ad4b22/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marco/Baixades/Programes/Studdler/Studdler/app/src/main/AndroidManifest.xml

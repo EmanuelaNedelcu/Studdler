@@ -1,0 +1,7 @@
+#Sun Apr 02 02:05:52 CEST 2017
+base.0=/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_259a6c7a358065ee677dd65d83de339aefba2d60
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a0d4c8dc13f4c4cbf0c69050634655193c66d3d6/classes.dex
+base.1=/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a0d4c8dc13f4c4cbf0c69050634655193c66d3d6
+file.0=/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_259a6c7a358065ee677dd65d83de339aefba2d60/classes.dex

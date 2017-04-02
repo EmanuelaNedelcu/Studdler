@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

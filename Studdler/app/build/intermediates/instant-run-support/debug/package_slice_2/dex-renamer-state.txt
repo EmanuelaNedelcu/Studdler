@@ -1,0 +1,4 @@
+#Sat Apr 01 20:09:11 CEST 2017
+base.0=/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+renamed.0=classes.dex
+file.0=/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

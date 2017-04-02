@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/ef3c68bb23650d376853a17b826f7f25018159ee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_94db8301a5f93fd9ceca22f8a967e76fccada221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/781adf393048990946a471d058dcdd4cfaa0cddb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_93f49fee64bfd704f1bbcc076306cb6057fc3c8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/92aabfd4b5251f0fc11b40cc6cad012db2b9c77e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_172bf96dd92f67e796ffc26ca8df07411618a6f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/70c8e1c8378a2a3d7bc8ace32adcf8c8865de4de/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_47081652df2b796f460c4a1c03253e8613d3e764.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/8ef4796016b49957ab355b7e30098bd9f99b1580/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_3bb204ea981dc735b3221d5a11db333e9697d588.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/23b505320c93fb72b221f398006ba051995be700/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_388cecd6a014612f1802a7ed7ccbcc059cde1a09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/a774d70e53caeedd04ad9772e477a370d48c38c1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_d1288761c1f5899547322c14be1ef9c7bb62b3a0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a0d4c8dc13f4c4cbf0c69050634655193c66d3d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_b544373700386cd26e483f094f0420365b948b11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/771e162ffef74c4573bcede951009dd0d880c283/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_1d671761c1aff7fdd9fc4bfa2dbbd47b97264ad5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/a54de69e8dc5ba21998ded7cab16d4ead0546146/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_ae88f18fc9494ff571cecb8b7f29c58c3e50f94c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/.android/build-cache/3dd5e6347a579472638a897a176aacf4d4ad4b22/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/classes_54dbaa97fdb12642f2fddea4c7e791ba4bfb7f94.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f05e6754f8652458b17b5b1fd0dd6a74864dcf">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_259a6c7a358065ee677dd65d83de339aefba2d60/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marco/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/marco/Baixades/Programes/Studdler/Studdler/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_1720870f467323ff33ef8c7f992ee31166e5d346.jar" />
+    </item>
+
+</items>
