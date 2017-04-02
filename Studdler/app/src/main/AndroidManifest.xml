@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewExam"
+        <activity
+            android:name=".NewExam"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastExams"
             android:parentActivityName=".MainActivity" />
     </application>
 

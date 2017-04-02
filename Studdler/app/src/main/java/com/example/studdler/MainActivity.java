@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, NewExam.class);
         startActivity(intent);
     }
+
+    public void showPastExams(View view) {
+        Intent intent = new Intent(this, PastExams.class);
+        startActivity(intent);
+    }
 }
